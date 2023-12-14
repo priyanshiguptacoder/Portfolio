@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(19, 71, 213);
+    color: white;
+}
+
+.header {
+    width: 100%;
+    padding: 25px 10%;
+    background-color: rgb(19, 71, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.info a {
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: rgb(26, 83, 169);
+}
+
+.home {
+    height: 80vh;
+    background: url('college.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content {
+    max-width: 700px;
+    align-items: center;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(74, 117, 186);
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    width: 200px;
+    height: 50px;
+
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background: rgb(7, 184, 215);
+    border: 2px solid rgb(7, 33, 99);
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
